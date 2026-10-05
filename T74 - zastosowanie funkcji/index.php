@@ -35,6 +35,9 @@ echo potega(4,2);
 */
 
 /*
+
+echo "<b>T743</b> <br>";
+
 function miesiece($liczba){
     if ($liczba == 1){
         return "styczen";
@@ -70,6 +73,9 @@ echo miesiece(0);
 
 */
 /*
+
+echo "<b>T744</b> <br>";
+
 function mniejsza_wieksza_rowna($a, $b){
     if ($a > $b) {
         return "<font color='red'>$a</font> > <font color='green'>$b</font>";
@@ -88,6 +94,9 @@ echo mniejsza_wieksza_rowna(69,69);
 
 */
 /*
+
+echo "<b>T745</b> <br>";
+
 function eh_ten_euklides($a, $b){
     while ($b != 0){
         $r = $a % $b;
