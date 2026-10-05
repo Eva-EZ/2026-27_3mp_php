@@ -21,6 +21,9 @@ echo wbz2(15) . "\n <br>";
 echo wbz2(-21) . "\n <br>";
 
 
+echo "<b>T742</b> <br>";
+
+
 function potega($x, $y){
     $wynik = $x ** $y;
     echo "x = $x <br> y = $y <br> x<sup>y</sup> = $x<sup>$y</sup> = ";
